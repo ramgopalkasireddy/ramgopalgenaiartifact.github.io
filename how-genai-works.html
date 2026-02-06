@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>How Generative AI works?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>How Generative AI works?</h1>
+
+<p>
+Generative AI doesn't "think" like a human; it is a world-class pattern-matching engine. At its core, it uses complex mathematical models to predict what should come next based on what it has seen before.
+</p>
+
+<p> <strong>
+1. The "Autofill" on Steroids (Text) </strong>
+</p>
+  <p>
+    Most text-based AI (like ChatGPT or Claude) uses an architecture called a Transformer.
+    <ul>
+      <li><strong>Tokenization:</strong> It breaks text down into small chunks called "tokens" (parts of words or characters). </li>
+      <li><strong>The Attention Mechanism:</strong>This is the secret sauce. It allows the model to "pay attention" to the most important words in a sentence to understand context. For example, in the sentence "The bat flew out of the cave," the model knows "bat" refers to the animal, not sports equipment, by looking at "cave."</li>
+      <li> <strong> Probability:</strong> It calculates the statistical likelihood of the next token. It’s essentially a very sophisticated game of "fill-in-the-blank."</li>
+    </ul>
+  </p>
+  <p>
+    <strong>2. The "Digital Sculptor" (Images)</strong>
+  </p>
+  <p>
+    Image generators (like Midjourney or DALL-E) often use a process called Diffusion.
+    <ul>
+      <li><strong>Adding Noise:</strong> During training, the AI takes a clear image and slowly adds random pixels (noise) until it’s just static.</li>
+      <li> <strong>Reverse Diffusion:</strong>  It then learns how to "denoise" that static to get back to the original image.</li>
+      <li> <strong>Creation:</strong>  When you give it a prompt, it starts with a canvas of random noise and "sculpts" a new image out of the static based on the patterns it learned during training.</li>
+    </ul>
+  </p>
+  <p>
+    <strong>3. Training vs Inference </strong>
+  </p>
+  <p>
+    Understanding the lifecycle is key to understanding the technology:
+  </p>
+  <p>
+    <ul>
+      <li><strong>Training:</strong> The model "reads" billions of pages of text or images to learn patterns, grammar, and style. This is incredibly expensive and takes months.</li>
+      <li><strong>Inference:</strong> This is what happens when you type a prompt. The model is "frozen," and it simply uses its pre-learned patterns to generate a response in real-time.</li>
+    </ul>
+  </p>
+  <p>
+    <strong>Key Takeaway:</strong> GenAI is a Probabilistic system, not a Deterministic one. This means it doesn't look up answers in a database; it generates them on the fly based on probabilities—which is why it can be so creative, yet sometimes "hallucinate" facts.
+  </p>
+<p><a href="genai.html">← Back to GenAI Topics</a></p>
+
+</body>
+</html>
