@@ -1,0 +1,72 @@
+/* ===== Global Styles ===== */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+/* Headings */
+h1 {
+  color: #1a237e;
+  border-bottom: 3px solid #1a237e;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #283593;
+  margin-top: 30px;
+}
+
+/* Links */
+a {
+  color: #1565c0;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Navigation */
+.nav {
+  background: #1a237e;
+  color: #fff;
+  padding: 12px 20px;
+}
+
+.nav a {
+  color: #fff;
+  margin-right: 15px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: #555;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
